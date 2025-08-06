@@ -2,7 +2,7 @@
 
 elements.sea_salt = {
     color: "#dcdcdc",
-    behavior: behaviors.powder,
+    behavior: behaviors.POWDER,
     category: "powders",
     state: "solid",
     density: 2160,
@@ -13,7 +13,7 @@ elements.sea_salt = {
 
 elements.sea_water = {
     color: "#406080",
-    behavior: behaviors.liquid,
+    behavior: behaviors.LIQUID,
     category: "liquids",
     state: "liquid",
     density: 1025,
