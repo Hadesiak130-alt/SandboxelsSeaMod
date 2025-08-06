@@ -3,7 +3,6 @@ elements.sea_water = {
     color: "#406080",
     behavior: behaviors.LIQUID,
     category: "liquids",
-    state: "liquid",
     density: 1025, // slightly denser than water
     tempHigh: 100,
     stateHigh: ["steam", "sea_salt"],
@@ -18,7 +17,6 @@ elements.sea_salt = {
     color: "#dcdcdc",
     behavior: behaviors.POWDER,
     category: "powders",
-    state: "solid",
     density: 2160,
     reactions: {
         water: { elem1: null, elem2: "salt_water", chance: 0.8 } // dissolves in water
