@@ -18,7 +18,7 @@ elements.sea_water = {
     state: "liquid",
     density: 1025,
     tempHigh: 100,
-    stateHigh: ["steam", "sea_salt"],
+    stateHigh: ["steam", "sea_salt"],  // When heated, creates steam + sea salt
     reactions: {
         fire: { elem2: "steam", chance: 0.2 }
     }
