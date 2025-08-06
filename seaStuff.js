@@ -9,7 +9,7 @@ elements.sea_salt = {
     reactions: {
         water: { elem1: null, elem2: "salt_water", chance: 0.8 }
     }
-},
+};
 
 elements.sea_water = {
     color: "#406080",
@@ -22,4 +22,4 @@ elements.sea_water = {
     reactions: {
         fire: { elem2: "steam", chance: 0.2 }
     }
-}
+};
