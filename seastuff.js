@@ -23,3 +23,5 @@ elements.sea_water = {
         fire: { elem2: "steam", chance: 0.2 }
     }
 };
+console.log(elements.sea_water);
+console.log(elements.sea_salt);
