@@ -1,7 +1,8 @@
-// Sea Water + Sea Salt Mod
+// Sea Salt and Sea Water mod for Sandboxels
+
 elements.sea_salt = {
     color: "#dcdcdc",
-    behavior: behaviors.POWDER,
+    behavior: behaviors.powder,
     category: "powders",
     state: "solid",
     density: 2160,
@@ -12,7 +13,7 @@ elements.sea_salt = {
 
 elements.sea_water = {
     color: "#406080",
-    behavior: behaviors.LIQUID,
+    behavior: behaviors.liquid,
     category: "liquids",
     state: "liquid",
     density: 1025,
